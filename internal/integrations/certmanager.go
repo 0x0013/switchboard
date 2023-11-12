@@ -6,7 +6,7 @@ import (
 
 	"github.com/borchero/switchboard/internal/k8s"
 	"github.com/imdario/mergo"
-	certmanager "github.com/jetstack/cert-manager/pkg/apis/certmanager/v1"
+	certmanager "github.com/cert-manager/cert-manager/pkg/apis/certmanager/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/controller/controllerutil"
